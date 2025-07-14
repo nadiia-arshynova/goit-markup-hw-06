@@ -87,11 +87,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
 }
 
-.contacts {
-    font-style: normal;
-    
-}
-
 .contacts-list {
     display: flex;
     gap: 40px;
@@ -163,16 +158,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf;
 }
 
-.advantages-title {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-margin-bottom: 8px;
-}
-
-
 .advantages {
 padding: 120px 0;
 margin: 0 auto;
@@ -183,6 +168,15 @@ margin: 0 auto;
     gap: 24px;
     margin: 0 auto;
     padding: 0;
+}
+
+.advantages-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .icon-box {
@@ -306,7 +300,7 @@ width: 40px;
 }
 
 .portfolio {
-    padding-top: 120px; padding-bottom: 120px; 
+    padding: 120px 0;
 }
 
 .portfolio .container {
